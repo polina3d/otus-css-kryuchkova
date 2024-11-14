@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Open Sans";
+    src:
+      url("/fonts/roboto/Roboto-Black.woff") format("woff2"),
+      url("/fonts/roboto/Roboto-Italic.woff") format("woff");
+  }
+  
+
+
+
+body{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h1{
+    font-family: "Playfair Display";
+    font-size: 86px;
+    font-weight: 600;
+}
+
+.light-button{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+}
+h2{
+    font-family: "Playfair Display";
+    font-size: 86px;
+    font-weight: 500;
+}
+h3{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+}
+.chapter{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.explanation{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500; 
+}
+.quote{
+    font-family: "Bitter";
+    font-size: 26px;
+    font-weight: 400; 
+}
+.small-description{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400; 
+}
+.second-quote{
+    font-family: "Bitter";
+    font-size: 32px;
+    font-weight: 400;
+}
+.list-style{
+    font-family: "Bitter";
+    font-size: 34px;
+    font-weight: 400;    
+}
+
+footer{
+    color:black;
+}
+
+.footer-style{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400; 
+    /*color: white;*/
+}
+.footer-mod{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 800; 
+    display: inline;
+}
