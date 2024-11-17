@@ -52,35 +52,36 @@ h3{
     font-size: 26px;
     font-weight: 400; 
 }
-.small-description{
+.desc{
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 400; 
 }
-.second-quote{
+#quote2{
     font-family: "Bitter";
     font-size: 32px;
     font-weight: 400;
 }
-.list-style{
+.list{
     font-family: "Bitter";
     font-size: 34px;
     font-weight: 400;    
 }
 
 footer{
-    color:black;
+    background-color:black;
 }
 
-.footer-style{
+.copyright{
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 400; 
-    /*color: white;*/
+    color: white;
 }
 .footer-mod{
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 800; 
     display: inline;
+    color: white;
 }
