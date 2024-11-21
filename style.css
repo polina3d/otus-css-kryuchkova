@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Open Sans";
+    src:
+      url("/fonts/roboto/Roboto-Black.woff") format("woff2"),
+      url("/fonts/roboto/Roboto-Italic.woff") format("woff");
+  }
+  
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.first-section{
+    width: 1250px;
+    height: 700px;
+    background-image: url('images/main_image.jpg');
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 600px;
+    height: 400px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+body{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.flex-container{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;    
+}
+
+h1{
+    font-family: "Playfair Display";
+    font-size: 86px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0;
+    
+}
+
+.light-button{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    /*display: inline-block;*/
+    margin-right: 10px;
+}
+h2{
+    font-family: "Playfair Display";
+    font-size: 86px;
+    font-weight: 500;
+}
+h3{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+}
+.chapter{
+    font-family: "Roboto";
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.explanation{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500; 
+}
+.quote{
+    font-family: "Bitter";
+    font-size: 26px;
+    font-weight: 400; 
+}
+.desc{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400; 
+}
+#quote2{
+    font-family: "Bitter";
+    font-size: 32px;
+    font-weight: 400;
+}
+.list{
+    font-family: "Bitter";
+    font-size: 34px;
+    font-weight: 400;    
+}
+
+footer{
+    background-color:black;
+}
+
+.copyright{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400; 
+    color: white;
+}
+.footer-mod{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 800; 
+    display: inline;
+    color: white;
+}
