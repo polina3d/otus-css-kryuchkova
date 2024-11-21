@@ -5,9 +5,30 @@
       url("/fonts/roboto/Roboto-Italic.woff") format("woff");
   }
   
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-
-
+.first-section{
+    width: 1250px;
+    height: 700px;
+    background-image: url('images/main_image.jpg');
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 600px;
+    height: 400px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
 body{
 
     font-family: "Roboto", sans-serif;
@@ -15,16 +36,28 @@ body{
     font-weight: 400;
 }
 
+.flex-container{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;    
+}
+
 h1{
     font-family: "Playfair Display";
     font-size: 86px;
     font-weight: 600;
+    display: inline-block;
+    margin: 0;
+    
 }
 
 .light-button{
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 500;
+    /*display: inline-block;*/
+    margin-right: 10px;
 }
 h2{
     font-family: "Playfair Display";
@@ -38,6 +71,7 @@ h3{
 }
 .chapter{
     font-family: "Roboto";
+    writing-mode: vertical-rl;
     font-size: 24px;
     font-weight: 700;
 }
