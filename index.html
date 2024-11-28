@@ -3,39 +3,61 @@
 <head>
 <meta charset="utf-8">
 <title>Mod Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1>Mod Studio</h1>
-    <p> Biography  <u>Designers</u>  Testimonials Strong points</p>
+<header class="site-header">
+    <h1>Mod</h1>
+    <div class="flex-container">
+        <p class="light-button"> Biography </p>
+        <p class="light-button"><u>Designers</u> </p>
+        <p class="light-button"> Testimonials</p> 
+        <p class="light-button"> Strong</p> 
+        <p class="light-button"> Points</p>  
+    </div>
 </header>
-<h2>Mod Studio</h2>
-<h3>Modern Web Studio</h3>
-<p><img src="images\main_image.jpg" alt="main image"> </p>
+<div class="first-section">
+    <div class="box">
+        <h2>Mod Studio</h2>
+        <h3>Modern Web Studio</h3>
+    </div>
+</div>  
+<!--<p><img src="images\main_image.jpg" alt="main image"> </p>
+-->
 
-<p>Biography</p>
-<section>
-<h2>Katya Mills</h2>
-<p>Art Director <br> Scenography / Styling / Creative Photography / Design</p>
-<blockquote><p>“The more I deal with the work as something that is my own,  as something that is personal, the more successful it is.”</p> </blockquote>
-<p><img src="images\women.jpg" alt="woman"> </p>
+<section class = "wrp">
+<img class="women" src="images\women.jpg" alt="woman">
+<p class="chapter">Biography</p>
+<div class = "content">
+    <h2>Katya Mills</h2>
+    <p class="explanation">Art Director <br> Scenography / Styling / Creative Photography / Design</p>
+    <blockquote><p class="quote">“The more I deal with the work as something that is my own,  as something that is personal, the more successful it is.”</p> </blockquote>
+</div>
 </section>
 
 <section>
-<h2>Designers</h2>
+<p class="chapter">Designers</p>
     <p><img src="images\designer1.jpg" alt="designer1"> </p>
-    <p> <strong>Jess Wonder </strong><br>
+    <p class="desc"> <strong>JESS WONDER </strong><br>
         <strong> From</strong>/ Be more flower <br>
         <strong> Skills</strong>/ Design Strategy / Marketing</p>
     <p><img src="images\designer2.jpg" alt="designer2"> </p>
-    <p> 
-        <strong>Kameron Clein</strong><br>
+    <p class="desc"> 
+        <strong>KAMERON CLEIN</strong><br>
         <strong>From</strong>/ Be more flower<br>
         <strong>Skills</strong>/ Design Strategy / Marketing
     </p>
     <p><img src="images\designer3.jpg" alt="designer3"> </p>
-    <p><strong>LOUISSE RED</strong><br>
+    <p class="desc">
+        <strong>LOUISSE RED</strong><br>
         <strong>From</strong>/ Be more flower<br>
         <strong>Skills</strong>/ Design Strategy / Marketing</p>
 </section>
@@ -43,25 +65,30 @@
 
 
 <section>
-<h2>Testimonials</h2>
-<p>Website<br><a>www.whitepapers.com</a></p>
-<p> Creativity<br><a>www.whitepapers.com</a></p>
-<p>Creativity<br><a>www.whitepapers.com</a></p>
-
-<p><img src="images\bar.jpg" alt="bar"> </p>
-
-<blockquote><p>I just really want to do good work and work with some great people, people who challenge me.</p></blockquote>
-<p><img src="images\bag.jpg" alt="bag"> </p>
+    <div class="container">
+        <div class = "desc-section"> 
+            <p class="desc-testimon"> <strong>Website</strong><br><a>www.whitepapers.com</a></p>
+            <p class="desc-testimon"> <strong>Creativity</strong><br><a>www.whitepapers.com</a></p>
+            <p class="desc-testimon"> <strong>Creativity</strong><br><a>www.whitepapers.com</a></p>
+        </div>
+        
+        <img class="bar" src="images\bar.jpg" alt="bar">
+        <h2 class="chapter-testimon">Testimonials</h2>
+        <div class = "quote-section"> 
+            <blockquote><p class="quote" id="quote2">I just really want to do good work and work with some great people, people who challenge me.</p></blockquote>
+            <img class = "bag" src="images\bag.jpg" alt="bag">
+        </div>
+    </div>
 
 </section>
 
 
 <section>
-    <h2>Strong points</h2>
+    <p class="chapter">Strong points</p>
     <p><img src="images\interior1.jpg" alt="interior1"> </p>
     <p><img src="images\interior2.jpg" alt="interior2"> </p>
-    <h3>Strengths</h3>
-    <ol>
+    <h2>Strengths</h2>
+    <ol class="list">
         <li>Interiors</li>
         <li>Outdoors</li>
         <li>Portraits</li>
@@ -74,23 +101,14 @@
         <li>Nature</li>
     </ol>
 </section>
-<!--
-<h1><img src="foods.gif" alt="food illustration"><br>Jen&’s Kitchen</h1>
- <p>A careful examination of the <strong>particulars will show</strong> that there is no
-in<wbr>com<wbr>pre<wbr>hen<wbr>si<wbr>bi<wbr>li<wbr>ty or difficulty in them which has
-<em>not a counterpart</em> in nature.</p>
- <p><img src="spoon.gif" alt="spoon illustration"> Your pal, Jen at Jen's Kitchen</p>
- <hr>
- <p><small>Copyright 2011, Jennifer Robbins</small></p>
 
- -->
- <footer>
-    <address>
+<footer>
+    <address class="copyright">
     <p>+7 921 123-45-67 <br>
         info@modstudio.com</p>
     </address>
-    <p>A product of <strong>MOD</strong> </p>
-    <p><small>© 2023 Mod Media. All rights reserved</small></p>
+    <p class="explanation">A product of  <div class="footer-mod"><strong>MOD</strong> </div> </p>
+    <p class="copyright"><small>© 2023 Mod Media. All rights reserved</small></p>
 
  </footer>
 
