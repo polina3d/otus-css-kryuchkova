@@ -40,8 +40,8 @@
     max-width: 1165px;
     margin: 100px auto;
     box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 img {
     width: 49%;
@@ -50,8 +50,35 @@ img {
   
 .content {
     width: 39%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 8%;
   }
+
+ hr {
+   align-content: left;
+  display:block;
+  width: 20px;
+  background-color:black;
+  height: 6px;
+  align-self: stretch;
+  margin: 0;
+}
   
+blockquote{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+    margin-top: 0px;
+
+}
 
 body{
 
@@ -100,11 +127,10 @@ h3{
 .chapter{
     font-family: "Roboto";
     writing-mode: vertical-rl;
-   /* transform: rotate(180deg);*/
-  
+    transform: rotate(180deg);
     font-size: 24px;
     font-weight: 700;
-    align-self: stretch;
+    /*align-self: stretch;*/
    
 }
 
@@ -194,11 +220,14 @@ h3{
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 500; 
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 .quote{
     font-family: "Bitter";
     font-size: 26px;
     font-weight: 400; 
+    margin-top: 17px;
 }
 
 #quote2{
